@@ -1,22 +1,15 @@
 {
  "properties": {
-  "displayName": "CIS Az v1.1.0",
+  "displayName": "CIS Az2",
   "policyType": "Custom",
   "description": "This initiative includes policies that address a subset of CIS Microsoft Azure Foundations Benchmark recommendations. Additional policies will be added in upcoming releases. For more information, visit https://aka.ms/cisazure110-initiative.",
   "metadata": {
    "version": "10.1.0",
    "category": "Regulatory Compliance",
    "createdBy": "7ac39870-b18c-47b8-98f5-779ef87c4b67",
-   "createdOn": "2021-08-09T18:26:18.1002529Z",
-   "updatedBy": "7ac39870-b18c-47b8-98f5-779ef87c4b67",
-   "updatedOn": "2021-08-09T20:32:24.759021Z",
-   "gitHubPolicy": {
-    "digest": "514e6d9610c365099ea957f9fcd5ba702913fa70",
-    "repoName": "cemasirt/azplcy",
-    "commitSha": "0d2b3d17de88a513febd4f96710c1f6fa59c8b53",
-    "runUrl": "https://github.com/cemasirt/azplcy/actions/runs/1114199386",
-    "filepath": "initiatives/CIS_Az_v1.1.0_b70aba50a03645da82416e4f"
-   }
+   "createdOn": "2021-08-09T20:30:46.0270472Z",
+   "updatedBy": null,
+   "updatedOn": null
   },
   "parameters": {
    "NetworkWatcherResourceGroupName": {
@@ -26,14 +19,6 @@
      "description": "Name of the resource group of NetworkWatcher, such as NetworkWatcherRG"
     },
     "defaultValue": "NetworkWatcherRG"
-   },
-   "Effect": {
-    "type": "String",
-    "metadata": {
-     "displayName": "Effect",
-     "description": "Effect"
-    },
-    "defaultValue": "Disabled"
    },
    "listOfApprovedVMExtensions": {
     "type": "Array",
@@ -324,11 +309,7 @@
    {
     "policyDefinitionReferenceId": "CISv110x3x6CISv110x5x1x5",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4fa4b6c0-31ca-4c0d-b10d-24b96f62a751",
-    "parameters": {
-     "effect": {
-      "value": "deny"
-     }
-    },
+    "parameters": {},
     "groupNames": [
      "CIS_Azure_1.1.0_3.6",
      "CIS_Azure_1.1.0_5.1.5"
@@ -909,16 +890,6 @@
     "groupNames": [
      "CIS_Azure_1.1.0_8.4"
     ]
-   },
-   {
-    "policyDefinitionReferenceId": "Storage accounts should have infrastructure encryption_1",
-    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4733ea7b-a883-42fe-8cac-97454c2a9e4a",
-    "parameters": {
-     "effect": {
-      "value": "[parameters('Effect')]"
-     }
-    },
-    "groupNames": []
    }
   ],
   "policyDefinitionGroups": [
@@ -1368,7 +1339,7 @@
    }
   ]
  },
- "id": "/subscriptions/d8288c69-e55e-434f-9d97-8fdd6ba43e95/providers/Microsoft.Authorization/policySetDefinitions/b70aba50a03645da82416e4f",
+ "id": "/subscriptions/d8288c69-e55e-434f-9d97-8fdd6ba43e95/providers/Microsoft.Authorization/policySetDefinitions/5a8515f79fb545b1bfc53504",
  "type": "Microsoft.Authorization/policySetDefinitions",
- "name": "b70aba50a03645da82416e4f"
+ "name": "5a8515f79fb545b1bfc53504"
 }

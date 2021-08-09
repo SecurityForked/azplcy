@@ -14,8 +14,15 @@
    "parameterScopes": {},
    "createdBy": "7ac39870-b18c-47b8-98f5-779ef87c4b67",
    "createdOn": "2021-08-09T18:40:43.6239511Z",
-   "updatedBy": null,
-   "updatedOn": null
+   "updatedBy": "bea0380c-c13c-4874-94f6-031e182dfc41",
+   "updatedOn": "2021-08-09T19:55:39.9810387Z",
+   "gitHubPolicy": {
+    "digest": "334064e601e9e522fa4442f9eec5aab3d78766b7",
+    "repoName": "cemasirt/azplcy",
+    "commitSha": "5354e4d669529749d0fa3c2bcbfbdbbc600be9ab",
+    "runUrl": "https://github.com/cemasirt/azplcy/actions/runs/1114151107",
+    "filepath": "initiatives/CIS_Az_v1.1.0_b70aba50a03645da82416e4f/assign.CIS_Az_v1.1.0_1babce5cb9114bcf8303d796.json"
+   }
   },
   "enforcementMode": "Default"
  },
