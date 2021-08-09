@@ -20,6 +20,14 @@
     },
     "defaultValue": "NetworkWatcherRG"
    },
+   "Effect": {
+    "type": "String",
+    "metadata": {
+     "displayName": "Effect",
+     "description": "Effect"
+    },
+    "defaultValue": "Disabled"
+   },
    "listOfApprovedVMExtensions": {
     "type": "Array",
     "metadata": {
@@ -909,7 +917,11 @@
    {
     "policyDefinitionReferenceId": "Storage accounts should have infrastructure encryption_1",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4733ea7b-a883-42fe-8cac-97454c2a9e4a",
-    "parameters": {},
+    "parameters": {
+     "Effect": {
+      "value": "[parameters('Effect')]"
+     }
+    },
     "groupNames": []
    }
   ],
