@@ -894,22 +894,7 @@
    {
     "policyDefinitionReferenceId": "CISv110x8x4m",
     "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/c39ba22d-4428-4149-b981-70acb31fc383",
-    "parameters": {
-          "effect": {
-        "type": "String",
-        "metadata": {
-          "displayName": "Effect",
-          "description": "Enable or disable the execution of the audit policy"
-        },
-        "allowedValues": [
-          "Audit",
-          "Deny",
-          "Disabled"
-        ],
-        "defaultValue": "Audit"
-      }
-    }
-   },
+    "parameters": {},
     "groupNames": [
      "CIS_Azure_1.1.0_8.4"
     ]
